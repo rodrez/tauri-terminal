@@ -7,7 +7,7 @@ const terminalElement = document.getElementById("terminal") as HTMLElement;
 
 const fitAddon = new FitAddon();
 const term = new Terminal({
-  fontFamily: "Jetbrains Mono",
+  fontFamily: "Jetbrains Mono", // OR your preffered font
   theme: {
     background: "rgb(47, 47, 47)",
   },
